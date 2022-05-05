@@ -1,0 +1,2 @@
+# upload_sitckers_aws_amplify
+处理本地数据到excel列表，然后上传到亚马逊
