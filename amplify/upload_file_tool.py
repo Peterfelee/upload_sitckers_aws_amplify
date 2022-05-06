@@ -1,6 +1,7 @@
 import logging
 import os
 
+# amplify 依赖的功能目录
 project_path = '/Users/peterlee/work/Editor_iOS'
 
 def upload_file(command,file_path,dest_path):
@@ -36,7 +37,7 @@ def upload_download_file(local_file):
 
 # local_file： full path for file source
 def upload_tab_file(local_file):
-    dest = 'sticker/tab'
+    dest = 'sticker/tab/previews'
     upload_file_s3(local_file, dest)
 
 def upload_excel_file(excel_file):

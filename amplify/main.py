@@ -13,13 +13,11 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
-# amplify 依赖的功能目录
-project_path = '/Users/peterlee/work/Editor_iOS'
 # local path 资源文件目录
 sticker_data_path = '/Users/peterlee/editor_stickers/'
 # amplify 生成的数据资源表
 sticker_data_subpath = os.getcwd() + '/data/develop/'
-# sticker_data_subpath = os.getcwd() + 'amplify/data/product/'
+# sticker_data_subpath = os.getcwd() + '/data/product/'
 
 
 # 修改excel文件
@@ -74,14 +72,14 @@ def deal_sticker_category():
     server = sticker_data_subpath + 'server/results_sticker_category.csv'
 
     modify_excel.modify_category_excel(original, local)
-    # upload_file_from_excel(local)
+    upload_file_from_excel(local)
     modify_excel.get_server_category_excel(local, server)
     upload_file_tool.upload_file_ds(server, 'StickerCategory')
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # 必须先处理分类 然后根据分类生成的id来更新sticker中categryId
-    deal_sticker_category()
+    # deal_sticker_category()
     deal_sticker()
 
 

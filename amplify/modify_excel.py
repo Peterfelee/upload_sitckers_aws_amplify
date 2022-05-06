@@ -8,11 +8,9 @@ import pandas as ps
 import file_tool as ft
 
 #servers url
-# server_base_url =  'https://res.editor.vidma.com/public/'
-server_base_url = 'https://res.dev.editor.vidma.com/public/'
 preview_path = 'sticker/previews/'
 download_path = 'sticker/download/'
-tab_path = 'sticker/tab/'
+tab_path = 'sticker/tab/previews/'
 
 # 复制excel文件
 def copy_excel(source_path, dest_path):
@@ -34,10 +32,12 @@ def append_colums_to_excel(path):
             continue
         if file_name is not None and len(file_name) != 0:
             changed = True
-            info['id'] = str(uuid.uuid1())
+            id = info.get('id',None)
+            if id is None or len(id) == 0:
+                info['id'] = str(uuid.uuid1())
             info['primaryId'] = index
-            info['downloadUrl'] = server_base_url + download_path + file_name
-            info['thumbnailUrl'] = server_base_url + preview_path + file_name
+            info['downloadUrl'] = download_path + file_name
+            info['thumbnailUrl'] = preview_path + file_name
             info['upload'] = False
     if changed == True:
         ft.json_to_excel(infos,path)
@@ -115,18 +115,25 @@ def add_colums_to_category_excel(source_path, dest_path):
     new_infos = []
     if os.path.exists(dest_path):
         new_infos = ft.excel_to_json(dest_path, 0)
+    new_infos = ft.updateJsonInfos(infos, new_infos)
     count = len(new_infos)
+    index = 0
     for info in infos:
-        new_info = info
+        index += 1
         file_name = info.get('filename', None)
         if file_name is  None or len(file_name) == 0:
             continue
-        new_info['coverUrl'] = info.get('coverUrl', server_base_url + tab_path + file_name)
-        new_info['id'] = info.get('id', str(uuid.uuid1()))
-        if count == 0:
-            new_infos.append(new_info)
-            continue
-        count -= 1
+
+        info['coverUrl'] = info.get('coverUrl', tab_path + file_name)
+        info['id'] = info.get('id', str(uuid.uuid1()))
+        if index > count:
+            new_infos.append(info)
+        else:
+            new_info = new_infos[index - 1]
+            cover_url = new_info.get('coverUrl', None)
+            if cover_url is None or len(cover_url) == 0:
+                cover_url = tab_path + file_name
+            new_info['coverUrl'] = cover_url
     ft.json_to_excel(new_infos, dest_path)
 
 def get_server_category_excel(source_path, dest_path):
