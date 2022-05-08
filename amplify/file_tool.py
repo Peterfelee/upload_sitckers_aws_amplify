@@ -20,6 +20,8 @@ def json_to_excel(info, file, sheet: str = None):
         logging.info('no content')
 
 def updateJsonInfos(origin_infos, local_infos):
+    origin_infos.sort(key=lambda x:(x['primaryId']))
+    local_infos.sort(key=lambda x:(x['primaryId']))
     local_count = len(local_infos)
     index = 0
     for info in origin_infos:

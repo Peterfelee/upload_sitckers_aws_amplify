@@ -1,7 +1,16 @@
-opId,name,coverUrl,online,updatedAt,sort,id,vipState
-brasilcarnival_202204,brasilcarnival,,1,2022-05-04 18:48:35,3,bf53e754-cb97-11ec-a604-acde48001122,0
-eid_202204,eid,,1,2022-05-04 18:48:35,6,bf53ecae-cb97-11ec-a604-acde48001122,0
-ily_202204,ily,,1,2022-05-04 18:48:35,4,bf53ed80-cb97-11ec-a604-acde48001122,0
-like_202204,like,,1,2022-05-04 18:48:35,2,bf53ee20-cb97-11ec-a604-acde48001122,0
-spring_202204,spring,,1,2022-05-04 18:48:35,5,bf53eec0-cb97-11ec-a604-acde48001122,0
-subscribe_202204,subscribe,,1,2022-05-04 18:48:35,1,bf53ef60-cb97-11ec-a604-acde48001122,0
+id,sort,opId,coverUrl,vipState,name,online
+efaa6768-ceb0-11ec-90ec-acde48001122,1,subscribe_202204,sticker/tab/previews/subscribe_202204.png,0,subscribe,1
+efaa684e-ceb0-11ec-90ec-acde48001122,10,appicons_202205,sticker/tab/previews/appicons_202205.png,0,appicons,0
+efaa6894-ceb0-11ec-90ec-acde48001122,4,arrows_202205,sticker/tab/previews/arrows_202205.png,0,arrows,1
+efaa68c6-ceb0-11ec-90ec-acde48001122,13,brasilcarnival_202204,sticker/tab/previews/brasilcarnival_202204.png,0,brasilcarnival,1
+efaa68ee-ceb0-11ec-90ec-acde48001122,14,easter_202205,sticker/tab/previews/easter_202205.png,0,easter,1
+efaa6916-ceb0-11ec-90ec-acde48001122,6,effects_202205,sticker/tab/previews/effects_202205.png,0,effects,1
+efaa6948-ceb0-11ec-90ec-acde48001122,12,eid_202204,sticker/tab/previews/eid_202204.png,0,eid,1
+efaa6970-ceb0-11ec-90ec-acde48001122,5,family_202205,sticker/tab/previews/family_202205.png,0,family,1
+efaa6998-ceb0-11ec-90ec-acde48001122,11,food_202205,sticker/tab/previews/food_202205.png,0,food,0
+efaa69ca-ceb0-11ec-90ec-acde48001122,4,ily_202204,sticker/tab/previews/ily_202204.png,0,ily,1
+efaa69f2-ceb0-11ec-90ec-acde48001122,2,like_202204,sticker/tab/previews/like_202204.png,1,like,1
+efaa6a1a-ceb0-11ec-90ec-acde48001122,3,music_202205,sticker/tab/previews/music_202205.png,0,music,1
+efaa6a42-ceb0-11ec-90ec-acde48001122,7,social_202205,sticker/tab/previews/social_202205.png,1,social,1
+efaa6a6a-ceb0-11ec-90ec-acde48001122,8,spring_202204,sticker/tab/previews/spring_202204.png,1,spring,1
+efaa6a92-ceb0-11ec-90ec-acde48001122,9,weather_202205,sticker/tab/previews/weather_202205.png,0,weather,0

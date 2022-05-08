@@ -18,11 +18,11 @@ sticker_data_path = '/Users/peterlee/editor_stickers/'
 # amplify 生成的数据资源表
 sticker_data_subpath = os.getcwd() + '/data/develop/'
 # sticker_data_subpath = os.getcwd() + '/data/product/'
-
+upload_file = False
 
 # 修改excel文件
-def edit_excel_file(source, dest, category):
-    modify_excel.modify_excel(source, dest, category)
+def edit_excel_file(source, dest):
+    modify_excel.modify_excel(source, dest)
 
 # 上传文件
 def upload_file_from_excel(file_path):
@@ -30,6 +30,7 @@ def upload_file_from_excel(file_path):
     changed = False
     pool = ThreadPoolExecutor(max_workers=4)
     index = 0
+    upload_count = 0
     for info in infos:
         index += 1
         is_load = info.get('upload', False)
@@ -39,18 +40,21 @@ def upload_file_from_excel(file_path):
         origin = info.get('origin_path', None)
         tab_cover = info.get('cover_path', None)
         changed = True
-        print(f'begin upload {index} file')
+        print(f'begin upload file at {index} line')
         if thumbnail is not  None and len(thumbnail) != 0:
             pool.submit(upload_file_tool.upload_preview_file, sticker_data_path + thumbnail)
+            upload_count += 1
         if origin is not None and len(origin) != 0:
             pool.submit(upload_file_tool.upload_download_file, sticker_data_path + origin)
-        if tab_cover is not  None and len(tab_cover) != 0:
+            upload_count += 1
+        if tab_cover is not None and len(tab_cover) != 0:
             pool.submit(upload_file_tool.upload_tab_file, sticker_data_path + tab_cover)
+            upload_count += 1
         info['upload'] = True
-        print(f'finished upload {index} file')
+        print(f'finished upload file at {index} line')
     if changed == True:
         file_tool.json_to_excel(infos, file_path)
-    print(f'all {index} files uploaded success')
+    print(f' {upload_count} files uploaded success')
 
 
 def deal_sticker():
@@ -58,12 +62,11 @@ def deal_sticker():
     original = sticker_data_subpath + 'from/editor_sticker_original.xlsx'
     local = sticker_data_subpath + 'local/editor_sticker_local.xlsx'
     server = sticker_data_subpath + 'server/results_sticker.csv'
-    category_local = sticker_data_subpath + 'local/editor_sticker_local_category.xlsx'
 
-    edit_excel_file(original, local,category_local)
-    # upload_file_from_excel(local)
+    edit_excel_file(original, local)
+    if upload_file:
+        upload_file_from_excel(local)
     modify_excel.get_server_excel(local, server)
-    upload_file_tool.upload_file_ds(server, 'Sticker')
 
 def deal_sticker_category():
     """修改贴纸分类的相关数据 和 图片上传"""
@@ -72,15 +75,31 @@ def deal_sticker_category():
     server = sticker_data_subpath + 'server/results_sticker_category.csv'
 
     modify_excel.modify_category_excel(original, local)
-    upload_file_from_excel(local)
+    if upload_file:
+        upload_file_from_excel(local)
     modify_excel.get_server_category_excel(local, server)
-    upload_file_tool.upload_file_ds(server, 'StickerCategory')
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # 必须先处理分类 然后根据分类生成的id来更新sticker中categryId
+    deal_sticker_category()
+    deal_sticker()
+
+def check_data():
+    """仅仅处理本地数据上传s3 和 数据表格更新"""
     # deal_sticker_category()
     deal_sticker()
 
+def upload_data_file():
+    """只处理本地的csv表格上传ds-aws"""
+    server = sticker_data_subpath + 'server/results_sticker.csv'
+    upload_file_tool.upload_file_ds(server, 'Sticker')
+    # server = sticker_data_subpath + 'server/results_sticker_category.csv'
+    # upload_file_tool.upload_file_ds(server, 'StickerCategory')
 
+def pull_data():
+    """只处理ds上数据拉取"""
+    ds_file = sticker_data_subpath + 'server/ds_result_sticker.csv'
+    upload_file_tool.export_ds_file('Sticker', ds_file)
+    ds_file = sticker_data_subpath + 'server/de_result_sticker_category.csv'
+    upload_file_tool.export_ds_file('StickerCategory', ds_file)
 

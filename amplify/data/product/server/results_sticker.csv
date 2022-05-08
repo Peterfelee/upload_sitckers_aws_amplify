@@ -1,96 +1,219 @@
-sort,thumbnailUrl,updatedAt,primaryId,id,stickercategoryID,type,online,downloadUrl,opId
-1,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_01.png,2022-05-04 19:26:19,1,d1a1ca54-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_01.png,eid_202204_01
-2,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_02.png,2022-05-04 19:26:19,2,d1a1cb62-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_02.png,eid_202204_02
-3,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_03.png,2022-05-04 19:26:19,3,d1a1cba8-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_03.png,eid_202204_03
-4,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_04.png,2022-05-04 19:26:19,4,d1a1cbda-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_04.png,eid_202204_04
-5,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_05.png,2022-05-04 19:26:19,5,d1a1cc02-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_05.png,eid_202204_05
-6,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_06.png,2022-05-04 19:26:19,6,d1a1cc2a-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_06.png,eid_202204_06
-7,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_07.png,2022-05-04 19:26:19,7,d1a1cc5c-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_07.png,eid_202204_07
-8,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_08.png,2022-05-04 19:26:19,8,d1a1cc84-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_08.png,eid_202204_08
-9,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_09.png,2022-05-04 19:26:19,9,d1a1ccac-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_09.png,eid_202204_09
-10,https://res.dev.editor.vidma.com/public/sticker/previews/eid_202204_10.png,2022-05-04 19:26:19,10,d1a1ccd4-cb9a-11ec-b012-acde48001122,946e19e2-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/eid_202204_10.png,eid_202204_10
-1,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_01A.gif,2022-05-04 19:26:19,11,d1a1ccfc-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_01A.gif,ily_202204_01A
-2,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_01B.png,2022-05-04 19:26:19,12,d1a1cd2e-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_01B.png,ily_202204_01B
-3,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_02A.png,2022-05-04 19:26:19,13,d1a1cd56-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_02A.png,ily_202204_02A
-4,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_02B.png,2022-05-04 19:26:19,14,d1a1cd7e-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_02B.png,ily_202204_02B
-5,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_03A.png,2022-05-04 19:26:19,15,d1a1cda6-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_03A.png,ily_202204_03A
-6,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_03B.png,2022-05-04 19:26:19,16,d1a1cdce-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_03B.png,ily_202204_03B
-7,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_04A.gif,2022-05-04 19:26:19,17,d1a1cdf6-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_04A.gif,ily_202204_04A
-8,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_04B.png,2022-05-04 19:26:19,18,d1a1ce1e-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_04B.png,ily_202204_04B
-9,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_05A.png,2022-05-04 19:26:19,19,d1a1ce46-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_05A.png,ily_202204_05A
-10,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_05B.png,2022-05-04 19:26:19,20,d1a1ce78-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_05B.png,ily_202204_05B
-11,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_06A.png,2022-05-04 19:26:19,21,d1a1cea0-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_06A.png,ily_202204_06A
-12,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_06B.png,2022-05-04 19:26:19,22,d1a1cec8-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_06B.png,ily_202204_06B
-13,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_07A.png,2022-05-04 19:26:19,23,d1a1cef0-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_07A.png,ily_202204_07A
-14,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_07B.png,2022-05-04 19:26:19,24,d1a1cf18-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_07B.png,ily_202204_07B
-15,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_08A.png,2022-05-04 19:26:19,25,d1a1cf40-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_08A.png,ily_202204_08A
-16,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_08B.png,2022-05-04 19:26:19,26,d1a1cf68-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_08B.png,ily_202204_08B
-17,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_09A.png,2022-05-04 19:26:19,27,d1a1cf90-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_09A.png,ily_202204_09A
-18,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_09B.png,2022-05-04 19:26:19,28,d1a1cfc2-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_09B.png,ily_202204_09B
-19,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_10A.gif,2022-05-04 19:26:19,29,d1a1d008-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_10A.gif,ily_202204_10A
-20,https://res.dev.editor.vidma.com/public/sticker/previews/ily_202204_10B.png,2022-05-04 19:26:19,30,d1a1d030-cb9a-11ec-b012-acde48001122,946e1ac8-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/ily_202204_10B.png,ily_202204_10B
-1,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_01A.gif,2022-05-04 19:26:19,31,d1a1d058-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_01A.gif,like_202204_01A
-2,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_01B.png,2022-05-04 19:26:19,32,d1a1d080-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_01B.png,like_202204_01B
-3,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_02A.png,2022-05-04 19:26:19,33,d1a1d0a8-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_02A.png,like_202204_02A
-4,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_02B.png,2022-05-04 19:26:19,34,d1a1d0d0-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_02B.png,like_202204_02B
-5,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_03A.png,2022-05-04 19:26:19,35,d1a1d0f8-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_03A.png,like_202204_03A
-6,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_03B.png,2022-05-04 19:26:19,36,d1a1d120-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_03B.png,like_202204_03B
-7,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_04A.gif,2022-05-04 19:26:19,37,d1a1d148-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_04A.gif,like_202204_04A
-8,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_04B.png,2022-05-04 19:26:19,38,d1a1d170-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_04B.png,like_202204_04B
-9,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_05A.gif,2022-05-04 19:26:19,39,d1a1d198-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_05A.gif,like_202204_05A
-10,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_05B.png,2022-05-04 19:26:19,40,d1a1d1c0-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_05B.png,like_202204_05B
-11,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_06A.png,2022-05-04 19:26:19,41,d1a1d1e8-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_06A.png,like_202204_06A
-12,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_06B.png,2022-05-04 19:26:19,42,d1a1d210-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_06B.png,like_202204_06B
-13,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_07A.gif,2022-05-04 19:26:19,43,d1a1d238-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_07A.gif,like_202204_07A
-14,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_07B.png,2022-05-04 19:26:19,44,d1a1d274-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_07B.png,like_202204_07B
-15,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_08A.png,2022-05-04 19:26:19,45,d1a1d29c-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_08A.png,like_202204_08A
-16,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_08B.png,2022-05-04 19:26:19,46,d1a1d2c4-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_08B.png,like_202204_08B
-17,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_09A.png,2022-05-04 19:26:19,47,d1a1d2ec-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_09A.png,like_202204_09A
-18,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_09B.png,2022-05-04 19:26:19,48,d1a1d314-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_09B.png,like_202204_09B
-19,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_10A.png,2022-05-04 19:26:19,49,d1a1d33c-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_10A.png,like_202204_10A
-20,https://res.dev.editor.vidma.com/public/sticker/previews/like_202204_10B.png,2022-05-04 19:26:19,50,d1a1d364-cb9a-11ec-b012-acde48001122,946e1b22-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/like_202204_10B.png,like_202204_10B
-1,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_01.gif,2022-05-04 19:26:19,51,d1a1d38c-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_01.gif,spring_202204_01
-2,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_02.png,2022-05-04 19:26:19,52,d1a1d3b4-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_02.png,spring_202204_02
-3,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_03.gif,2022-05-04 19:26:19,53,d1a1d3dc-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_03.gif,spring_202204_03
-4,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_04.png,2022-05-04 19:26:19,54,d1a1d404-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_04.png,spring_202204_04
-5,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_05.png,2022-05-04 19:26:19,55,d1a1d42c-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_05.png,spring_202204_05
-6,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_06.png,2022-05-04 19:26:19,56,d1a1d454-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_06.png,spring_202204_06
-7,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_07.png,2022-05-04 19:26:19,57,d1a1d47c-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_07.png,spring_202204_07
-8,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_08.png,2022-05-04 19:26:19,58,d1a1d4a4-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_08.png,spring_202204_08
-9,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_09.png,2022-05-04 19:26:19,59,d1a1d4cc-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_09.png,spring_202204_09
-10,https://res.dev.editor.vidma.com/public/sticker/previews/spring_202204_10.png,2022-05-04 19:26:19,60,d1a1d508-cb9a-11ec-b012-acde48001122,946e1b72-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/spring_202204_10.png,spring_202204_10
-1,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_0.gif,2022-05-04 19:26:19,61,d1a1d530-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_0.gif,brasilcarnival_202204_0
-6,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_01.png,2022-05-04 19:26:19,62,d1a1d558-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_01.png,brasilcarnival_202204_01
-7,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_02.png,2022-05-04 19:26:19,63,d1a1d580-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_02.png,brasilcarnival_202204_02
-8,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_03.png,2022-05-04 19:26:19,64,d1a1d5a8-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_03.png,brasilcarnival_202204_03
-9,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_04.png,2022-05-04 19:26:19,65,d1a1d5d0-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_04.png,brasilcarnival_202204_04
-10,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_05.png,2022-05-04 19:26:19,66,d1a1d5f8-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_05.png,brasilcarnival_202204_05
-11,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_06.png,2022-05-04 19:26:19,67,d1a1d620-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_06.png,brasilcarnival_202204_06
-12,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_07.png,2022-05-04 19:26:19,68,d1a1d648-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_07.png,brasilcarnival_202204_07
-13,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_08.png,2022-05-04 19:26:19,69,d1a1d670-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_08.png,brasilcarnival_202204_08
-14,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_09.png,2022-05-04 19:26:19,70,d1a1d698-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_09.png,brasilcarnival_202204_09
-15,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_10.png,2022-05-04 19:26:19,71,d1a1d6c0-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_10.png,brasilcarnival_202204_10
-2,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_Recife.gif,2022-05-04 19:26:19,72,d1a1d6e8-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_Recife.gif,brasilcarnival_202204_Recife
-3,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_Rio.gif,2022-05-04 19:26:19,73,d1a1d710-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_Rio.gif,brasilcarnival_202204_Rio
-4,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_Salvador.gif,2022-05-04 19:26:19,74,d1a1d738-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_Salvador.gif,brasilcarnival_202204_Salvador
-5,https://res.dev.editor.vidma.com/public/sticker/previews/brasilcarnival_202204_SP.gif,2022-05-04 19:26:19,75,d1a1d760-cb9a-11ec-b012-acde48001122,946e1bae-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/brasilcarnival_202204_SP.gif,brasilcarnival_202204_SP
-1,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_01A.gif,2022-05-04 19:26:19,76,d1a1d788-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_01A.gif,subscribe_202204_01A
-2,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_01B.png,2022-05-04 19:26:19,77,d1a1d7b0-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_01B.png,subscribe_202204_01B
-3,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_02A.png,2022-05-04 19:26:19,78,d1a1d7d8-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_02A.png,subscribe_202204_02A
-4,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_02B.png,2022-05-04 19:26:19,79,d1a1d800-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_02B.png,subscribe_202204_02B
-5,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_03A.gif,2022-05-04 19:26:19,80,d1a1d828-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_03A.gif,subscribe_202204_03A
-6,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_03B.png,2022-05-04 19:26:19,81,d1a1d850-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_03B.png,subscribe_202204_03B
-7,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_04A.png,2022-05-04 19:26:19,82,d1a1d878-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_04A.png,subscribe_202204_04A
-8,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_04B.png,2022-05-04 19:26:19,83,d1a1d8a0-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_04B.png,subscribe_202204_04B
-9,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_05A.png,2022-05-04 19:26:19,84,d1a1d8c8-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_05A.png,subscribe_202204_05A
-10,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_05B.png,2022-05-04 19:26:19,85,d1a1d8f0-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_05B.png,subscribe_202204_05B
-11,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_06A.png,2022-05-04 19:26:19,86,d1a1d918-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_06A.png,subscribe_202204_06A
-12,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_06B.png,2022-05-04 19:26:19,87,d1a1d940-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_06B.png,subscribe_202204_06B
-13,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_07A.gif,2022-05-04 19:26:19,88,d1a1d968-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,gif,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_07A.gif,subscribe_202204_07A
-14,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_07B.png,2022-05-04 19:26:19,89,d1a1d990-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_07B.png,subscribe_202204_07B
-15,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_08A.png,2022-05-04 19:26:19,90,d1a1d9b8-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_08A.png,subscribe_202204_08A
-16,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_08B.png,2022-05-04 19:26:19,91,d1a1d9e0-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_08B.png,subscribe_202204_08B
-17,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_09A.png,2022-05-04 19:26:19,92,d1a1da08-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_09A.png,subscribe_202204_09A
-18,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_09B.png,2022-05-04 19:26:19,93,d1a1da30-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_09B.png,subscribe_202204_09B
-19,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_10A.png,2022-05-04 19:26:19,94,d1a1da4e-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_10A.png,subscribe_202204_10A
-20,https://res.dev.editor.vidma.com/public/sticker/previews/subscribe_202204_10B.png,2022-05-04 19:26:19,95,d1a1da76-cb9a-11ec-b012-acde48001122,946e1bea-cb6a-11ec-8d3a-acde48001122,png,1,https://res.dev.editor.vidma.com/public/sticker/download/subscribe_202204_10B.png,subscribe_202204_10B
+id,type,sort,downloadUrl,opId,gif,thumbnailUrl,online
+efc3c5dc-ceb0-11ec-90ec-acde48001122,eid,1,sticker/download/eid_202204_01.png,eid_202204_01,False,sticker/previews/eid_202204_01.png,1
+efc3c6c2-ceb0-11ec-90ec-acde48001122,eid,2,sticker/download/eid_202204_02.png,eid_202204_02,False,sticker/previews/eid_202204_02.png,1
+efc3c6fe-ceb0-11ec-90ec-acde48001122,eid,3,sticker/download/eid_202204_03.png,eid_202204_03,False,sticker/previews/eid_202204_03.png,1
+efc3c726-ceb0-11ec-90ec-acde48001122,eid,4,sticker/download/eid_202204_04.png,eid_202204_04,False,sticker/previews/eid_202204_04.png,1
+efc3c74e-ceb0-11ec-90ec-acde48001122,eid,5,sticker/download/eid_202204_05.png,eid_202204_05,False,sticker/previews/eid_202204_05.png,1
+efc3c776-ceb0-11ec-90ec-acde48001122,eid,6,sticker/download/eid_202204_06.png,eid_202204_06,False,sticker/previews/eid_202204_06.png,1
+efc3c79e-ceb0-11ec-90ec-acde48001122,eid,7,sticker/download/eid_202204_07.png,eid_202204_07,False,sticker/previews/eid_202204_07.png,1
+efc3c7c6-ceb0-11ec-90ec-acde48001122,eid,8,sticker/download/eid_202204_08.png,eid_202204_08,False,sticker/previews/eid_202204_08.png,1
+efc3c7e4-ceb0-11ec-90ec-acde48001122,eid,9,sticker/download/eid_202204_09.png,eid_202204_09,False,sticker/previews/eid_202204_09.png,1
+efc3c80c-ceb0-11ec-90ec-acde48001122,eid,10,sticker/download/eid_202204_10.png,eid_202204_10,False,sticker/previews/eid_202204_10.png,1
+efc3c834-ceb0-11ec-90ec-acde48001122,ily,1,sticker/download/ily_202204_01A.gif,ily_202204_01A,True,sticker/previews/ily_202204_01A.gif,1
+efc3c85c-ceb0-11ec-90ec-acde48001122,ily,2,sticker/download/ily_202204_01B.png,ily_202204_01B,False,sticker/previews/ily_202204_01B.png,1
+efc3c884-ceb0-11ec-90ec-acde48001122,ily,3,sticker/download/ily_202204_02A.png,ily_202204_02A,False,sticker/previews/ily_202204_02A.png,1
+efc3c8ac-ceb0-11ec-90ec-acde48001122,ily,4,sticker/download/ily_202204_02B.png,ily_202204_02B,False,sticker/previews/ily_202204_02B.png,1
+efc3c8d4-ceb0-11ec-90ec-acde48001122,ily,5,sticker/download/ily_202204_03A.png,ily_202204_03A,False,sticker/previews/ily_202204_03A.png,1
+efc3c8fc-ceb0-11ec-90ec-acde48001122,ily,6,sticker/download/ily_202204_03B.png,ily_202204_03B,False,sticker/previews/ily_202204_03B.png,1
+efc3c924-ceb0-11ec-90ec-acde48001122,ily,7,sticker/download/ily_202204_04A.gif,ily_202204_04A,True,sticker/previews/ily_202204_04A.gif,1
+efc3c94c-ceb0-11ec-90ec-acde48001122,ily,8,sticker/download/ily_202204_04B.png,ily_202204_04B,False,sticker/previews/ily_202204_04B.png,1
+efc3c974-ceb0-11ec-90ec-acde48001122,ily,9,sticker/download/ily_202204_05A.png,ily_202204_05A,False,sticker/previews/ily_202204_05A.png,1
+efc3c99c-ceb0-11ec-90ec-acde48001122,ily,10,sticker/download/ily_202204_05B.png,ily_202204_05B,False,sticker/previews/ily_202204_05B.png,1
+efc3c9c4-ceb0-11ec-90ec-acde48001122,ily,11,sticker/download/ily_202204_06A.png,ily_202204_06A,False,sticker/previews/ily_202204_06A.png,1
+efc3c9ec-ceb0-11ec-90ec-acde48001122,ily,12,sticker/download/ily_202204_06B.png,ily_202204_06B,False,sticker/previews/ily_202204_06B.png,1
+efc3ca0a-ceb0-11ec-90ec-acde48001122,ily,13,sticker/download/ily_202204_07A.png,ily_202204_07A,False,sticker/previews/ily_202204_07A.png,1
+efc3cafa-ceb0-11ec-90ec-acde48001122,ily,14,sticker/download/ily_202204_07B.png,ily_202204_07B,False,sticker/previews/ily_202204_07B.png,1
+efc3cb2c-ceb0-11ec-90ec-acde48001122,ily,15,sticker/download/ily_202204_08A.png,ily_202204_08A,False,sticker/previews/ily_202204_08A.png,1
+efc3cb4a-ceb0-11ec-90ec-acde48001122,ily,16,sticker/download/ily_202204_08B.png,ily_202204_08B,False,sticker/previews/ily_202204_08B.png,1
+efc3cb72-ceb0-11ec-90ec-acde48001122,ily,17,sticker/download/ily_202204_09A.png,ily_202204_09A,False,sticker/previews/ily_202204_09A.png,1
+efc3cb9a-ceb0-11ec-90ec-acde48001122,ily,18,sticker/download/ily_202204_09B.png,ily_202204_09B,False,sticker/previews/ily_202204_09B.png,1
+efc3cbc2-ceb0-11ec-90ec-acde48001122,ily,19,sticker/download/ily_202204_10A.gif,ily_202204_10A,True,sticker/previews/ily_202204_10A.gif,1
+efc3cbf4-ceb0-11ec-90ec-acde48001122,ily,20,sticker/download/ily_202204_10B.png,ily_202204_10B,False,sticker/previews/ily_202204_10B.png,1
+efc3cc1c-ceb0-11ec-90ec-acde48001122,like,1,sticker/download/like_202204_01A.gif,like_202204_01A,True,sticker/previews/like_202204_01A.gif,1
+efc3cc3a-ceb0-11ec-90ec-acde48001122,like,2,sticker/download/like_202204_01B.png,like_202204_01B,False,sticker/previews/like_202204_01B.png,1
+efc3cc62-ceb0-11ec-90ec-acde48001122,like,3,sticker/download/like_202204_02A.png,like_202204_02A,False,sticker/previews/like_202204_02A.png,1
+efc3ccb2-ceb0-11ec-90ec-acde48001122,like,4,sticker/download/like_202204_02B.png,like_202204_02B,False,sticker/previews/like_202204_02B.png,1
+efc3ccda-ceb0-11ec-90ec-acde48001122,like,5,sticker/download/like_202204_03A.png,like_202204_03A,False,sticker/previews/like_202204_03A.png,1
+efc3cd02-ceb0-11ec-90ec-acde48001122,like,6,sticker/download/like_202204_03B.png,like_202204_03B,False,sticker/previews/like_202204_03B.png,1
+efc3cd2a-ceb0-11ec-90ec-acde48001122,like,7,sticker/download/like_202204_04A.gif,like_202204_04A,True,sticker/previews/like_202204_04A.gif,1
+efc3cd52-ceb0-11ec-90ec-acde48001122,like,8,sticker/download/like_202204_04B.png,like_202204_04B,False,sticker/previews/like_202204_04B.png,1
+efc3cd7a-ceb0-11ec-90ec-acde48001122,like,9,sticker/download/like_202204_05A.gif,like_202204_05A,True,sticker/previews/like_202204_05A.gif,1
+efc3cd98-ceb0-11ec-90ec-acde48001122,like,10,sticker/download/like_202204_05B.png,like_202204_05B,False,sticker/previews/like_202204_05B.png,1
+efc3cdc0-ceb0-11ec-90ec-acde48001122,like,11,sticker/download/like_202204_06A.png,like_202204_06A,False,sticker/previews/like_202204_06A.png,1
+efc3cde8-ceb0-11ec-90ec-acde48001122,like,12,sticker/download/like_202204_06B.png,like_202204_06B,False,sticker/previews/like_202204_06B.png,1
+efc3ce10-ceb0-11ec-90ec-acde48001122,like,13,sticker/download/like_202204_07A.gif,like_202204_07A,True,sticker/previews/like_202204_07A.gif,1
+efc3ce38-ceb0-11ec-90ec-acde48001122,like,14,sticker/download/like_202204_07B.png,like_202204_07B,False,sticker/previews/like_202204_07B.png,1
+efc3ce60-ceb0-11ec-90ec-acde48001122,like,15,sticker/download/like_202204_08A.png,like_202204_08A,False,sticker/previews/like_202204_08A.png,1
+efc3ce88-ceb0-11ec-90ec-acde48001122,like,16,sticker/download/like_202204_08B.png,like_202204_08B,False,sticker/previews/like_202204_08B.png,1
+efc3cea6-ceb0-11ec-90ec-acde48001122,like,17,sticker/download/like_202204_09A.png,like_202204_09A,False,sticker/previews/like_202204_09A.png,1
+efc3cee2-ceb0-11ec-90ec-acde48001122,like,18,sticker/download/like_202204_09B.png,like_202204_09B,False,sticker/previews/like_202204_09B.png,1
+efc3cf0a-ceb0-11ec-90ec-acde48001122,like,19,sticker/download/like_202204_10A.png,like_202204_10A,False,sticker/previews/like_202204_10A.png,1
+efc3cf32-ceb0-11ec-90ec-acde48001122,like,20,sticker/download/like_202204_10B.png,like_202204_10B,False,sticker/previews/like_202204_10B.png,1
+efc3cf5a-ceb0-11ec-90ec-acde48001122,spring,1,sticker/download/spring_202204_01.gif,spring_202204_01,True,sticker/previews/spring_202204_01.gif,1
+efc3cf82-ceb0-11ec-90ec-acde48001122,spring,2,sticker/download/spring_202204_02.png,spring_202204_02,False,sticker/previews/spring_202204_02.png,1
+efc3cfaa-ceb0-11ec-90ec-acde48001122,spring,3,sticker/download/spring_202204_03.gif,spring_202204_03,True,sticker/previews/spring_202204_03.gif,1
+efc3cfd2-ceb0-11ec-90ec-acde48001122,spring,4,sticker/download/spring_202204_04.png,spring_202204_04,False,sticker/previews/spring_202204_04.png,1
+efc3cffa-ceb0-11ec-90ec-acde48001122,spring,5,sticker/download/spring_202204_05.png,spring_202204_05,False,sticker/previews/spring_202204_05.png,1
+efc3d018-ceb0-11ec-90ec-acde48001122,spring,6,sticker/download/spring_202204_06.png,spring_202204_06,False,sticker/previews/spring_202204_06.png,1
+efc3d040-ceb0-11ec-90ec-acde48001122,spring,7,sticker/download/spring_202204_07.png,spring_202204_07,False,sticker/previews/spring_202204_07.png,1
+efc3d068-ceb0-11ec-90ec-acde48001122,spring,8,sticker/download/spring_202204_08.png,spring_202204_08,False,sticker/previews/spring_202204_08.png,1
+efc3d090-ceb0-11ec-90ec-acde48001122,spring,9,sticker/download/spring_202204_09.png,spring_202204_09,False,sticker/previews/spring_202204_09.png,1
+efc3d0b8-ceb0-11ec-90ec-acde48001122,spring,10,sticker/download/spring_202204_10.png,spring_202204_10,False,sticker/previews/spring_202204_10.png,1
+efc3d0e0-ceb0-11ec-90ec-acde48001122,brasilcarnival,1,sticker/download/brasilcarnival_202204_0.gif,brasilcarnival_202204_0,True,sticker/previews/brasilcarnival_202204_0.gif,1
+efc3d108-ceb0-11ec-90ec-acde48001122,brasilcarnival,6,sticker/download/brasilcarnival_202204_01.png,brasilcarnival_202204_01,False,sticker/previews/brasilcarnival_202204_01.png,1
+efc3d130-ceb0-11ec-90ec-acde48001122,brasilcarnival,7,sticker/download/brasilcarnival_202204_02.png,brasilcarnival_202204_02,False,sticker/previews/brasilcarnival_202204_02.png,1
+efc3d158-ceb0-11ec-90ec-acde48001122,brasilcarnival,8,sticker/download/brasilcarnival_202204_03.png,brasilcarnival_202204_03,False,sticker/previews/brasilcarnival_202204_03.png,1
+efc3d180-ceb0-11ec-90ec-acde48001122,brasilcarnival,9,sticker/download/brasilcarnival_202204_04.png,brasilcarnival_202204_04,False,sticker/previews/brasilcarnival_202204_04.png,1
+efc3d1a8-ceb0-11ec-90ec-acde48001122,brasilcarnival,10,sticker/download/brasilcarnival_202204_05.png,brasilcarnival_202204_05,False,sticker/previews/brasilcarnival_202204_05.png,1
+efc3d1d0-ceb0-11ec-90ec-acde48001122,brasilcarnival,11,sticker/download/brasilcarnival_202204_06.png,brasilcarnival_202204_06,False,sticker/previews/brasilcarnival_202204_06.png,1
+efc3d1f8-ceb0-11ec-90ec-acde48001122,brasilcarnival,12,sticker/download/brasilcarnival_202204_07.png,brasilcarnival_202204_07,False,sticker/previews/brasilcarnival_202204_07.png,1
+efc3d220-ceb0-11ec-90ec-acde48001122,brasilcarnival,13,sticker/download/brasilcarnival_202204_08.png,brasilcarnival_202204_08,False,sticker/previews/brasilcarnival_202204_08.png,1
+efc3d23e-ceb0-11ec-90ec-acde48001122,brasilcarnival,14,sticker/download/brasilcarnival_202204_09.png,brasilcarnival_202204_09,False,sticker/previews/brasilcarnival_202204_09.png,1
+efc3d266-ceb0-11ec-90ec-acde48001122,brasilcarnival,15,sticker/download/brasilcarnival_202204_10.png,brasilcarnival_202204_10,False,sticker/previews/brasilcarnival_202204_10.png,1
+efc3d28e-ceb0-11ec-90ec-acde48001122,brasilcarnival,2,sticker/download/brasilcarnival_202204_Recife.gif,brasilcarnival_202204_Recife,True,sticker/previews/brasilcarnival_202204_Recife.gif,1
+efc3d2b6-ceb0-11ec-90ec-acde48001122,brasilcarnival,3,sticker/download/brasilcarnival_202204_Rio.gif,brasilcarnival_202204_Rio,True,sticker/previews/brasilcarnival_202204_Rio.gif,1
+efc3d2de-ceb0-11ec-90ec-acde48001122,brasilcarnival,4,sticker/download/brasilcarnival_202204_Salvador.gif,brasilcarnival_202204_Salvador,True,sticker/previews/brasilcarnival_202204_Salvador.gif,1
+efc3d306-ceb0-11ec-90ec-acde48001122,brasilcarnival,5,sticker/download/brasilcarnival_202204_SP.gif,brasilcarnival_202204_SP,True,sticker/previews/brasilcarnival_202204_SP.gif,1
+efc3d32e-ceb0-11ec-90ec-acde48001122,subscribe,1,sticker/download/subscribe_202204_01A.gif,subscribe_202204_01A,True,sticker/previews/subscribe_202204_01A.gif,1
+efc3d356-ceb0-11ec-90ec-acde48001122,subscribe,2,sticker/download/subscribe_202204_01B.png,subscribe_202204_01B,False,sticker/previews/subscribe_202204_01B.png,1
+efc3d37e-ceb0-11ec-90ec-acde48001122,subscribe,3,sticker/download/subscribe_202204_02A.png,subscribe_202204_02A,False,sticker/previews/subscribe_202204_02A.png,1
+efc3d3a6-ceb0-11ec-90ec-acde48001122,subscribe,4,sticker/download/subscribe_202204_02B.png,subscribe_202204_02B,False,sticker/previews/subscribe_202204_02B.png,1
+efc3d3ce-ceb0-11ec-90ec-acde48001122,subscribe,5,sticker/download/subscribe_202204_03A.gif,subscribe_202204_03A,True,sticker/previews/subscribe_202204_03A.gif,1
+efc3d3f6-ceb0-11ec-90ec-acde48001122,subscribe,6,sticker/download/subscribe_202204_03B.png,subscribe_202204_03B,False,sticker/previews/subscribe_202204_03B.png,1
+efc3d41e-ceb0-11ec-90ec-acde48001122,subscribe,7,sticker/download/subscribe_202204_04A.png,subscribe_202204_04A,False,sticker/previews/subscribe_202204_04A.png,1
+efc3d43c-ceb0-11ec-90ec-acde48001122,subscribe,8,sticker/download/subscribe_202204_04B.png,subscribe_202204_04B,False,sticker/previews/subscribe_202204_04B.png,1
+efc3d464-ceb0-11ec-90ec-acde48001122,subscribe,9,sticker/download/subscribe_202204_05A.png,subscribe_202204_05A,False,sticker/previews/subscribe_202204_05A.png,1
+efc3d48c-ceb0-11ec-90ec-acde48001122,subscribe,10,sticker/download/subscribe_202204_05B.png,subscribe_202204_05B,False,sticker/previews/subscribe_202204_05B.png,1
+efc3d4b4-ceb0-11ec-90ec-acde48001122,subscribe,11,sticker/download/subscribe_202204_06A.png,subscribe_202204_06A,False,sticker/previews/subscribe_202204_06A.png,1
+efc3d4dc-ceb0-11ec-90ec-acde48001122,subscribe,12,sticker/download/subscribe_202204_06B.png,subscribe_202204_06B,False,sticker/previews/subscribe_202204_06B.png,1
+efc3d504-ceb0-11ec-90ec-acde48001122,subscribe,13,sticker/download/subscribe_202204_07A.gif,subscribe_202204_07A,True,sticker/previews/subscribe_202204_07A.gif,1
+efc3d522-ceb0-11ec-90ec-acde48001122,subscribe,14,sticker/download/subscribe_202204_07B.png,subscribe_202204_07B,False,sticker/previews/subscribe_202204_07B.png,1
+efc3d54a-ceb0-11ec-90ec-acde48001122,subscribe,15,sticker/download/subscribe_202204_08A.png,subscribe_202204_08A,False,sticker/previews/subscribe_202204_08A.png,1
+efc3d572-ceb0-11ec-90ec-acde48001122,subscribe,16,sticker/download/subscribe_202204_08B.png,subscribe_202204_08B,False,sticker/previews/subscribe_202204_08B.png,1
+efc3d59a-ceb0-11ec-90ec-acde48001122,subscribe,17,sticker/download/subscribe_202204_09A.png,subscribe_202204_09A,False,sticker/previews/subscribe_202204_09A.png,1
+efc3d5c2-ceb0-11ec-90ec-acde48001122,subscribe,18,sticker/download/subscribe_202204_09B.png,subscribe_202204_09B,False,sticker/previews/subscribe_202204_09B.png,1
+efc3d5ea-ceb0-11ec-90ec-acde48001122,subscribe,19,sticker/download/subscribe_202204_10A.png,subscribe_202204_10A,False,sticker/previews/subscribe_202204_10A.png,1
+efc3d612-ceb0-11ec-90ec-acde48001122,subscribe,20,sticker/download/subscribe_202204_10B.png,subscribe_202204_10B,False,sticker/previews/subscribe_202204_10B.png,1
+efc3d63a-ceb0-11ec-90ec-acde48001122,appicons,1,sticker/download/appicons_202205_01A.png,appicons_202205_01A,False,sticker/previews/appicons_202205_01A.png,1
+efc3d662-ceb0-11ec-90ec-acde48001122,appicons,2,sticker/download/appicons_202205_01B.png,appicons_202205_01B,False,sticker/previews/appicons_202205_01B.png,1
+efc3d68a-ceb0-11ec-90ec-acde48001122,appicons,3,sticker/download/appicons_202205_02A.png,appicons_202205_02A,False,sticker/previews/appicons_202205_02A.png,1
+efc3d6b2-ceb0-11ec-90ec-acde48001122,appicons,4,sticker/download/appicons_202205_02B.png,appicons_202205_02B,False,sticker/previews/appicons_202205_02B.png,1
+efc3d6da-ceb0-11ec-90ec-acde48001122,appicons,5,sticker/download/appicons_202205_03A.png,appicons_202205_03A,False,sticker/previews/appicons_202205_03A.png,1
+efc3d6f8-ceb0-11ec-90ec-acde48001122,appicons,6,sticker/download/appicons_202205_03B.png,appicons_202205_03B,False,sticker/previews/appicons_202205_03B.png,1
+efc3d720-ceb0-11ec-90ec-acde48001122,appicons,7,sticker/download/appicons_202205_04A.png,appicons_202205_04A,False,sticker/previews/appicons_202205_04A.png,1
+efc3d748-ceb0-11ec-90ec-acde48001122,appicons,8,sticker/download/appicons_202205_04B.png,appicons_202205_04B,False,sticker/previews/appicons_202205_04B.png,1
+efc3d770-ceb0-11ec-90ec-acde48001122,appicons,9,sticker/download/appicons_202205_05A.png,appicons_202205_05A,False,sticker/previews/appicons_202205_05A.png,1
+efc3d798-ceb0-11ec-90ec-acde48001122,appicons,10,sticker/download/appicons_202205_05B.png,appicons_202205_05B,False,sticker/previews/appicons_202205_05B.png,1
+efc3d7b6-ceb0-11ec-90ec-acde48001122,appicons,11,sticker/download/appicons_202205_06A.png,appicons_202205_06A,False,sticker/previews/appicons_202205_06A.png,1
+efc3d7de-ceb0-11ec-90ec-acde48001122,appicons,12,sticker/download/appicons_202205_06B.png,appicons_202205_06B,False,sticker/previews/appicons_202205_06B.png,1
+efc3d806-ceb0-11ec-90ec-acde48001122,appicons,13,sticker/download/appicons_202205_07A.png,appicons_202205_07A,False,sticker/previews/appicons_202205_07A.png,1
+efc3d82e-ceb0-11ec-90ec-acde48001122,appicons,14,sticker/download/appicons_202205_07B.png,appicons_202205_07B,False,sticker/previews/appicons_202205_07B.png,1
+efc3d856-ceb0-11ec-90ec-acde48001122,appicons,15,sticker/download/appicons_202205_08A.png,appicons_202205_08A,False,sticker/previews/appicons_202205_08A.png,1
+efc3d87e-ceb0-11ec-90ec-acde48001122,appicons,16,sticker/download/appicons_202205_08B.png,appicons_202205_08B,False,sticker/previews/appicons_202205_08B.png,1
+efc3d8a6-ceb0-11ec-90ec-acde48001122,appicons,17,sticker/download/appicons_202205_09A.png,appicons_202205_09A,False,sticker/previews/appicons_202205_09A.png,1
+efc3d8e2-ceb0-11ec-90ec-acde48001122,appicons,18,sticker/download/appicons_202205_09B.png,appicons_202205_09B,False,sticker/previews/appicons_202205_09B.png,1
+efc3d90a-ceb0-11ec-90ec-acde48001122,family,1,sticker/download/family_202205_01.png,family_202205_01,False,sticker/previews/family_202205_01.png,1
+efc3d932-ceb0-11ec-90ec-acde48001122,family,2,sticker/download/family_202205_02.png,family_202205_02,False,sticker/previews/family_202205_02.png,1
+efc3d95a-ceb0-11ec-90ec-acde48001122,family,3,sticker/download/family_202205_03.png,family_202205_03,False,sticker/previews/family_202205_03.png,1
+efc3d982-ceb0-11ec-90ec-acde48001122,family,4,sticker/download/family_202205_04.png,family_202205_04,False,sticker/previews/family_202205_04.png,1
+efc3d9aa-ceb0-11ec-90ec-acde48001122,family,5,sticker/download/family_202205_05.png,family_202205_05,False,sticker/previews/family_202205_05.png,1
+efc3d9d2-ceb0-11ec-90ec-acde48001122,family,6,sticker/download/family_202205_06.png,family_202205_06,False,sticker/previews/family_202205_06.png,1
+efc3d9fa-ceb0-11ec-90ec-acde48001122,family,7,sticker/download/family_202205_07.png,family_202205_07,False,sticker/previews/family_202205_07.png,1
+efc3da22-ceb0-11ec-90ec-acde48001122,family,8,sticker/download/family_202205_08.png,family_202205_08,False,sticker/previews/family_202205_08.png,1
+efc3da40-ceb0-11ec-90ec-acde48001122,family,9,sticker/download/family_202205_09.png,family_202205_09,False,sticker/previews/family_202205_09.png,1
+efc3da68-ceb0-11ec-90ec-acde48001122,family,10,sticker/download/family_202205_10.png,family_202205_10,False,sticker/previews/family_202205_10.png,1
+efc3da90-ceb0-11ec-90ec-acde48001122,family,11,sticker/download/family_202205_11.png,family_202205_11,False,sticker/previews/family_202205_11.png,1
+efc3dab8-ceb0-11ec-90ec-acde48001122,family,12,sticker/download/family_202205_12.png,family_202205_12,False,sticker/previews/family_202205_12.png,1
+efc3dae0-ceb0-11ec-90ec-acde48001122,family,13,sticker/download/family_202205_13.png,family_202205_13,False,sticker/previews/family_202205_13.png,1
+efc3db08-ceb0-11ec-90ec-acde48001122,family,14,sticker/download/family_202205_14.png,family_202205_14,False,sticker/previews/family_202205_14.png,1
+efc3db30-ceb0-11ec-90ec-acde48001122,family,15,sticker/download/family_202205_15.png,family_202205_15,False,sticker/previews/family_202205_15.png,1
+efc3db4e-ceb0-11ec-90ec-acde48001122,social,1,sticker/download/social_202205_01.png,social_202205_01,False,sticker/previews/social_202205_01.png,1
+efc3db76-ceb0-11ec-90ec-acde48001122,social,2,sticker/download/social_202205_02.png,social_202205_02,False,sticker/previews/social_202205_02.png,1
+efc3db9e-ceb0-11ec-90ec-acde48001122,social,3,sticker/download/social_202205_03.png,social_202205_03,False,sticker/previews/social_202205_03.png,1
+efc3dbc6-ceb0-11ec-90ec-acde48001122,social,4,sticker/download/social_202205_04.png,social_202205_04,False,sticker/previews/social_202205_04.png,1
+efc3dbee-ceb0-11ec-90ec-acde48001122,social,5,sticker/download/social_202205_05.png,social_202205_05,False,sticker/previews/social_202205_05.png,1
+efc3dc0c-ceb0-11ec-90ec-acde48001122,social,6,sticker/download/social_202205_06.png,social_202205_06,False,sticker/previews/social_202205_06.png,1
+efc3dc34-ceb0-11ec-90ec-acde48001122,social,7,sticker/download/social_202205_07.png,social_202205_07,False,sticker/previews/social_202205_07.png,1
+efc3dc5c-ceb0-11ec-90ec-acde48001122,social,8,sticker/download/social_202205_08.png,social_202205_08,False,sticker/previews/social_202205_08.png,1
+efc3dc84-ceb0-11ec-90ec-acde48001122,social,9,sticker/download/social_202205_09.png,social_202205_09,False,sticker/previews/social_202205_09.png,1
+efc3dcac-ceb0-11ec-90ec-acde48001122,social,10,sticker/download/social_202205_10.png,social_202205_10,False,sticker/previews/social_202205_10.png,1
+efc3dcd4-ceb0-11ec-90ec-acde48001122,weather,1,sticker/download/weather_202205_01.png,weather_202205_01,False,sticker/previews/weather_202205_01.png,1
+efc3dcfc-ceb0-11ec-90ec-acde48001122,weather,2,sticker/download/weather_202205_02.png,weather_202205_02,False,sticker/previews/weather_202205_02.png,1
+efc3dd24-ceb0-11ec-90ec-acde48001122,weather,3,sticker/download/weather_202205_03.png,weather_202205_03,False,sticker/previews/weather_202205_03.png,1
+efc3dd4c-ceb0-11ec-90ec-acde48001122,weather,4,sticker/download/weather_202205_04.png,weather_202205_04,False,sticker/previews/weather_202205_04.png,1
+efc3dd74-ceb0-11ec-90ec-acde48001122,weather,5,sticker/download/weather_202205_05.png,weather_202205_05,False,sticker/previews/weather_202205_05.png,1
+efc3dd9c-ceb0-11ec-90ec-acde48001122,weather,6,sticker/download/weather_202205_06.png,weather_202205_06,False,sticker/previews/weather_202205_06.png,1
+efc3ddc4-ceb0-11ec-90ec-acde48001122,weather,7,sticker/download/weather_202205_07.png,weather_202205_07,False,sticker/previews/weather_202205_07.png,1
+efc3ddec-ceb0-11ec-90ec-acde48001122,weather,8,sticker/download/weather_202205_08.png,weather_202205_08,False,sticker/previews/weather_202205_08.png,1
+efc3de0a-ceb0-11ec-90ec-acde48001122,weather,9,sticker/download/weather_202205_09.png,weather_202205_09,False,sticker/previews/weather_202205_09.png,1
+efc3de32-ceb0-11ec-90ec-acde48001122,weather,10,sticker/download/weather_202205_10.png,weather_202205_10,False,sticker/previews/weather_202205_10.png,1
+efc3de5a-ceb0-11ec-90ec-acde48001122,arrows,1,sticker/download/arrows_202205_01A.gif,arrows_202205_01A,True,sticker/previews/arrows_202205_01A.gif,1
+efc3de82-ceb0-11ec-90ec-acde48001122,arrows,2,sticker/download/arrows_202205_01B.png,arrows_202205_01B,False,sticker/previews/arrows_202205_01B.png,1
+efc3deaa-ceb0-11ec-90ec-acde48001122,arrows,3,sticker/download/arrows_202205_02A.gif,arrows_202205_02A,True,sticker/previews/arrows_202205_02A.gif,1
+efc3ded2-ceb0-11ec-90ec-acde48001122,arrows,4,sticker/download/arrows_202205_02B.png,arrows_202205_02B,False,sticker/previews/arrows_202205_02B.png,1
+efc3defa-ceb0-11ec-90ec-acde48001122,arrows,5,sticker/download/arrows_202205_03A.gif,arrows_202205_03A,True,sticker/previews/arrows_202205_03A.gif,1
+efc3df22-ceb0-11ec-90ec-acde48001122,arrows,6,sticker/download/arrows_202205_03B.png,arrows_202205_03B,False,sticker/previews/arrows_202205_03B.png,1
+efc3df40-ceb0-11ec-90ec-acde48001122,arrows,7,sticker/download/arrows_202205_04A.gif,arrows_202205_04A,True,sticker/previews/arrows_202205_04A.gif,1
+efc3df68-ceb0-11ec-90ec-acde48001122,arrows,8,sticker/download/arrows_202205_04B.png,arrows_202205_04B,False,sticker/previews/arrows_202205_04B.png,1
+efc3df90-ceb0-11ec-90ec-acde48001122,arrows,9,sticker/download/arrows_202205_05A.gif,arrows_202205_05A,True,sticker/previews/arrows_202205_05A.gif,1
+efc3dfb8-ceb0-11ec-90ec-acde48001122,arrows,10,sticker/download/arrows_202205_05B.png,arrows_202205_05B,False,sticker/previews/arrows_202205_05B.png,1
+efc3dfe0-ceb0-11ec-90ec-acde48001122,arrows,11,sticker/download/arrows_202205_06A.gif,arrows_202205_06A,True,sticker/previews/arrows_202205_06A.gif,1
+efc3e008-ceb0-11ec-90ec-acde48001122,arrows,12,sticker/download/arrows_202205_06B.png,arrows_202205_06B,False,sticker/previews/arrows_202205_06B.png,1
+efc3e030-ceb0-11ec-90ec-acde48001122,arrows,13,sticker/download/arrows_202205_07A.gif,arrows_202205_07A,True,sticker/previews/arrows_202205_07A.gif,1
+efc3e058-ceb0-11ec-90ec-acde48001122,arrows,14,sticker/download/arrows_202205_07B.png,arrows_202205_07B,False,sticker/previews/arrows_202205_07B.png,1
+efc3e076-ceb0-11ec-90ec-acde48001122,arrows,15,sticker/download/arrows_202205_08A.gif,arrows_202205_08A,True,sticker/previews/arrows_202205_08A.gif,1
+efc3e09e-ceb0-11ec-90ec-acde48001122,arrows,16,sticker/download/arrows_202205_08B.png,arrows_202205_08B,False,sticker/previews/arrows_202205_08B.png,1
+efc3e0c6-ceb0-11ec-90ec-acde48001122,arrows,17,sticker/download/arrows_202205_09A.gif,arrows_202205_09A,True,sticker/previews/arrows_202205_09A.gif,1
+efc3e0ee-ceb0-11ec-90ec-acde48001122,arrows,18,sticker/download/arrows_202205_09B.png,arrows_202205_09B,False,sticker/previews/arrows_202205_09B.png,1
+efc3e116-ceb0-11ec-90ec-acde48001122,arrows,19,sticker/download/arrows_202205_10A.gif,arrows_202205_10A,True,sticker/previews/arrows_202205_10A.gif,1
+efc3e13e-ceb0-11ec-90ec-acde48001122,arrows,20,sticker/download/arrows_202205_10B.png,arrows_202205_10B,False,sticker/previews/arrows_202205_10B.png,1
+efc3e15c-ceb0-11ec-90ec-acde48001122,easter,1,sticker/download/easter_202205_01.png,easter_202205_01,False,sticker/previews/easter_202205_01.png,1
+efc3e184-ceb0-11ec-90ec-acde48001122,easter,2,sticker/download/easter_202205_02.png,easter_202205_02,False,sticker/previews/easter_202205_02.png,1
+efc3e1ac-ceb0-11ec-90ec-acde48001122,easter,3,sticker/download/easter_202205_03.gif,easter_202205_03,True,sticker/previews/easter_202205_03.gif,1
+efc3e1d4-ceb0-11ec-90ec-acde48001122,easter,4,sticker/download/easter_202205_04.png,easter_202205_04,False,sticker/previews/easter_202205_04.png,1
+efc3e1fc-ceb0-11ec-90ec-acde48001122,easter,5,sticker/download/easter_202205_05.png,easter_202205_05,False,sticker/previews/easter_202205_05.png,1
+efc3e21a-ceb0-11ec-90ec-acde48001122,easter,6,sticker/download/easter_202205_06.gif,easter_202205_06,True,sticker/previews/easter_202205_06.gif,1
+efc3e242-ceb0-11ec-90ec-acde48001122,easter,7,sticker/download/easter_202205_07.gif,easter_202205_07,True,sticker/previews/easter_202205_07.gif,1
+efc3e26a-ceb0-11ec-90ec-acde48001122,easter,8,sticker/download/easter_202205_08.gif,easter_202205_08,True,sticker/previews/easter_202205_08.gif,1
+efc3e29c-ceb0-11ec-90ec-acde48001122,easter,9,sticker/download/easter_202205_09.gif,easter_202205_09,True,sticker/previews/easter_202205_09.gif,1
+efc3e2ba-ceb0-11ec-90ec-acde48001122,easter,10,sticker/download/easter_202205_10.gif,easter_202205_10,True,sticker/previews/easter_202205_10.gif,1
+efc3e2e2-ceb0-11ec-90ec-acde48001122,effects,1,sticker/download/effects_202205_01A.png,effects_202205_01A,False,sticker/previews/effects_202205_01A.png,1
+efc3e30a-ceb0-11ec-90ec-acde48001122,effects,2,sticker/download/effects_202205_01B.gif,effects_202205_01B,True,sticker/previews/effects_202205_01B.gif,1
+efc3e332-ceb0-11ec-90ec-acde48001122,effects,3,sticker/download/effects_202205_02A.png,effects_202205_02A,False,sticker/previews/effects_202205_02A.png,1
+efc3e35a-ceb0-11ec-90ec-acde48001122,effects,4,sticker/download/effects_202205_02B.gif,effects_202205_02B,True,sticker/previews/effects_202205_02B.gif,1
+efc3e382-ceb0-11ec-90ec-acde48001122,effects,5,sticker/download/effects_202205_03A.png,effects_202205_03A,False,sticker/previews/effects_202205_03A.png,1
+efc3e3aa-ceb0-11ec-90ec-acde48001122,effects,6,sticker/download/effects_202205_03B.gif,effects_202205_03B,True,sticker/previews/effects_202205_03B.gif,1
+efc3e3c8-ceb0-11ec-90ec-acde48001122,effects,7,sticker/download/effects_202205_04A.png,effects_202205_04A,False,sticker/previews/effects_202205_04A.png,1
+efc3e3f0-ceb0-11ec-90ec-acde48001122,effects,8,sticker/download/effects_202205_04B.gif,effects_202205_04B,True,sticker/previews/effects_202205_04B.gif,1
+efc3e418-ceb0-11ec-90ec-acde48001122,effects,9,sticker/download/effects_202205_05A.png,effects_202205_05A,False,sticker/previews/effects_202205_05A.png,1
+efc3e440-ceb0-11ec-90ec-acde48001122,effects,10,sticker/download/effects_202205_05B.gif,effects_202205_05B,True,sticker/previews/effects_202205_05B.gif,1
+efc3e468-ceb0-11ec-90ec-acde48001122,effects,11,sticker/download/effects_202205_06A.png,effects_202205_06A,False,sticker/previews/effects_202205_06A.png,1
+efc3e490-ceb0-11ec-90ec-acde48001122,effects,12,sticker/download/effects_202205_06B.gif,effects_202205_06B,True,sticker/previews/effects_202205_06B.gif,1
+efc3e4b8-ceb0-11ec-90ec-acde48001122,effects,13,sticker/download/effects_202205_07A.png,effects_202205_07A,False,sticker/previews/effects_202205_07A.png,1
+efc3e4e0-ceb0-11ec-90ec-acde48001122,effects,14,sticker/download/effects_202205_07B.gif,effects_202205_07B,True,sticker/previews/effects_202205_07B.gif,1
+efc3e508-ceb0-11ec-90ec-acde48001122,effects,15,sticker/download/effects_202205_08A.png,effects_202205_08A,False,sticker/previews/effects_202205_08A.png,1
+efc3e530-ceb0-11ec-90ec-acde48001122,effects,16,sticker/download/effects_202205_08B.gif,effects_202205_08B,True,sticker/previews/effects_202205_08B.gif,1
+efc3e558-ceb0-11ec-90ec-acde48001122,effects,17,sticker/download/effects_202205_09A.png,effects_202205_09A,False,sticker/previews/effects_202205_09A.png,1
+efc3e580-ceb0-11ec-90ec-acde48001122,effects,18,sticker/download/effects_202205_09B.gif,effects_202205_09B,True,sticker/previews/effects_202205_09B.gif,1
+efc3e59e-ceb0-11ec-90ec-acde48001122,effects,19,sticker/download/effects_202205_10A.png,effects_202205_10A,False,sticker/previews/effects_202205_10A.png,1
+efc3e5c6-ceb0-11ec-90ec-acde48001122,effects,20,sticker/download/effects_202205_10B.gif,effects_202205_10B,True,sticker/previews/effects_202205_10B.gif,1
+efc3e5ee-ceb0-11ec-90ec-acde48001122,food,1,sticker/download/food_202205_01.gif,food_202205_01,True,sticker/previews/food_202205_01.gif,1
+efc3e616-ceb0-11ec-90ec-acde48001122,food,2,sticker/download/food_202205_02.png,food_202205_02,False,sticker/previews/food_202205_02.png,1
+efc3e63e-ceb0-11ec-90ec-acde48001122,food,3,sticker/download/food_202205_03.png,food_202205_03,False,sticker/previews/food_202205_03.png,1
+efc3e666-ceb0-11ec-90ec-acde48001122,food,4,sticker/download/food_202205_04.png,food_202205_04,False,sticker/previews/food_202205_04.png,1
+efc3e68e-ceb0-11ec-90ec-acde48001122,food,5,sticker/download/food_202205_05.gif,food_202205_05,True,sticker/previews/food_202205_05.gif,1
+efc3e6b6-ceb0-11ec-90ec-acde48001122,food,6,sticker/download/food_202205_06.gif,food_202205_06,True,sticker/previews/food_202205_06.gif,1
+efc3e6de-ceb0-11ec-90ec-acde48001122,food,7,sticker/download/food_202205_07.gif,food_202205_07,True,sticker/previews/food_202205_07.gif,1
+efc3e706-ceb0-11ec-90ec-acde48001122,food,8,sticker/download/food_202205_08.png,food_202205_08,False,sticker/previews/food_202205_08.png,1
+efc3e72e-ceb0-11ec-90ec-acde48001122,food,9,sticker/download/food_202205_09.gif,food_202205_09,True,sticker/previews/food_202205_09.gif,1
+efc3e74c-ceb0-11ec-90ec-acde48001122,food,10,sticker/download/food_202205_10.gif,food_202205_10,True,sticker/previews/food_202205_10.gif,1
+efc3e774-ceb0-11ec-90ec-acde48001122,music,1,sticker/download/music_202205_01.gif,music_202205_01,True,sticker/previews/music_202205_01.gif,1
+efc3e79c-ceb0-11ec-90ec-acde48001122,music,2,sticker/download/music_202205_02.gif,music_202205_02,True,sticker/previews/music_202205_02.gif,1
+efc3e7c4-ceb0-11ec-90ec-acde48001122,music,3,sticker/download/music_202205_03.png,music_202205_03,False,sticker/previews/music_202205_03.png,1
+efc3e7ec-ceb0-11ec-90ec-acde48001122,music,4,sticker/download/music_202205_04.gif,music_202205_04,True,sticker/previews/music_202205_04.gif,1
+efc3e814-ceb0-11ec-90ec-acde48001122,music,5,sticker/download/music_202205_05.gif,music_202205_05,True,sticker/previews/music_202205_05.gif,1
+efc3e83c-ceb0-11ec-90ec-acde48001122,music,6,sticker/download/music_202205_06.png,music_202205_06,False,sticker/previews/music_202205_06.png,1
+efc3e864-ceb0-11ec-90ec-acde48001122,music,7,sticker/download/music_202205_07.gif,music_202205_07,True,sticker/previews/music_202205_07.gif,1
+efc3e882-ceb0-11ec-90ec-acde48001122,music,8,sticker/download/music_202205_08.png,music_202205_08,False,sticker/previews/music_202205_08.png,1
+efc3e8aa-ceb0-11ec-90ec-acde48001122,music,9,sticker/download/music_202205_09.png,music_202205_09,False,sticker/previews/music_202205_09.png,1
+efc3e8d2-ceb0-11ec-90ec-acde48001122,music,10,sticker/download/music_202205_10.gif,music_202205_10,True,sticker/previews/music_202205_10.gif,1

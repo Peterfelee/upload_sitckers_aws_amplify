@@ -35,7 +35,6 @@ def append_colums_to_excel(path):
             id = info.get('id',None)
             if id is None or len(id) == 0:
                 info['id'] = str(uuid.uuid1())
-            info['primaryId'] = index
             info['downloadUrl'] = download_path + file_name
             info['thumbnailUrl'] = preview_path + file_name
             info['upload'] = False
@@ -84,20 +83,29 @@ def get_server_excel(source_path, dest_path):
     """覆盖原来的下载的文件"""
     print(f'start get_server_excel from {source_path} to {dest_path}')
     infos = ft.excel_to_json(source_path,0)
-    dataFrame = ps.DataFrame(columns={'id','thumbnailUrl','downloadUrl','online',
-                                      'sort','type','stickercategoryID',
-                                      'opId','primaryId'})
+    dataFrame = ps.DataFrame(columns={'id','online',
+                                      'sort','type',
+                                      'opId','thumbnailUrl',
+                                      'downloadUrl','gif'})
     infos_new = []
     for info in infos:
         info_new = {}
         for key in dataFrame.columns:
-            info_value = info.get(key, None)
-            info_new[key] = info_value
+            if key == 'type':
+                info_value = info.get('category',None)
+                info_new[key] = info_value
+
+            elif key == 'gif':
+                info_value = info.get('type', 'png')
+                info_new[key] = info_value == 'gif'
+            else:
+                info_value = info.get(key, None)
+                info_new[key] = info_value
         infos_new.append(info_new)
     dataFrame = ps.DataFrame(infos_new, index=None)
     dataFrame.to_csv(dest_path, index=False)
 
-def modify_excel(source_path, dest_path, category_path):
+def modify_excel(source_path, dest_path):
     print(f'modify excel from {source_path} to {dest_path}')
     if os.path.exists(dest_path) == False:
         copy_excel(source_path, dest_path)
@@ -107,7 +115,6 @@ def modify_excel(source_path, dest_path, category_path):
         dest_infos = ft.updateJsonInfos(source_infos, dest_infos)
         ft.json_to_excel(dest_infos, dest_path)
     append_colums_to_excel(dest_path)
-    setup_category_id(dest_path, 'stickercategoryID', category_path)
 
 #  category
 def add_colums_to_category_excel(source_path, dest_path):
@@ -115,6 +122,7 @@ def add_colums_to_category_excel(source_path, dest_path):
     new_infos = []
     if os.path.exists(dest_path):
         new_infos = ft.excel_to_json(dest_path, 0)
+
     new_infos = ft.updateJsonInfos(infos, new_infos)
     count = len(new_infos)
     index = 0
@@ -125,7 +133,10 @@ def add_colums_to_category_excel(source_path, dest_path):
             continue
 
         info['coverUrl'] = info.get('coverUrl', tab_path + file_name)
-        info['id'] = info.get('id', str(uuid.uuid1()))
+        id = info.get('id', None)
+        if id is None or len(id) == 0:
+            id = str(uuid.uuid1())
+        info['id'] = id
         if index > count:
             new_infos.append(info)
         else:
@@ -153,15 +164,3 @@ def modify_category_excel(source_path, dest_path):
     """修改sticker_category文件"""
     add_colums_to_category_excel(source_path, dest_path)
 
-
-
-
-
-
-
-if  __name__ == '__main__':
-    test_path = '/Users/peterlee/editor_stickers/amplify/data/from/editor_sticker_original.xlsx'
-    dest_path = '/Users/peterlee/editor_stickers/amplify/data/local/editor_sticker_local_category.xlsx'
-    server_path = '/Users/peterlee/editor_stickers/amplify/data/server/results_sticker_category.csv'
-    modify_category_excel(test_path, dest_path)
-    get_server_category_excel(dest_path, server_path)
