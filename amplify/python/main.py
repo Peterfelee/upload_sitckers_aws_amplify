@@ -2,16 +2,11 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-import logging
 import os
 import modify_excel
-import  upload_file_tool
-import  file_tool
-from concurrent.futures import  ThreadPoolExecutor
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+import upload_file_tool
+import file_tool
+from concurrent.futures import ThreadPoolExecutor
 
 # local path 资源文件目录
 sticker_data_path = '/Users/peterlee/editor_stickers/'
@@ -20,8 +15,8 @@ sticker_data_subpath = os.getcwd() + '/data/develop/'
 # sticker_data_subpath = os.getcwd() + '/data/product/'
 upload_file = False
 
-# 修改excel文件
 def edit_excel_file(source, dest):
+    """修改excel文件"""
     modify_excel.modify_excel(source, dest)
 
 # 上传文件
@@ -34,7 +29,7 @@ def upload_file_from_excel(file_path):
     for info in infos:
         index += 1
         is_load = info.get('upload', False)
-        if is_load == True:
+        if is_load:
             continue
         thumbnail = info.get('thumbnail_path', None)
         origin = info.get('origin_path', None)
@@ -79,10 +74,7 @@ def deal_sticker_category():
         upload_file_from_excel(local)
     modify_excel.get_server_category_excel(local, server)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    deal_sticker_category()
-    deal_sticker()
+
 
 def check_data():
     """仅仅处理本地数据上传s3 和 数据表格更新"""
@@ -103,3 +95,10 @@ def pull_data():
     ds_file = sticker_data_subpath + 'server/de_result_sticker_category.csv'
     upload_file_tool.export_ds_file('StickerCategory', ds_file)
 
+def test_pyhton():
+    print('ok!!')
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    test_pyhton()
