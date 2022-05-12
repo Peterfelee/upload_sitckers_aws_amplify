@@ -3,15 +3,17 @@ import os
 
 # amplify 依赖的功能目录
 project_path = '/Users/peterlee/work/Editor_iOS'
+s3_command = '/Users/peterlee/editor_stickers/amplify/amplify-s3/index.js'
+ds_command = '/Users/peterlee/editor_stickers/amplify/amplify-ds/index.js'
 
 def upload_s3_file(file_path,dest_path):
-    os.system("cd %s; amplifys3 upload %s %s" % (project_path, file_path, dest_path))
+    os.system("cd %s; %s upload %s %s" % (project_path, s3_command, file_path, dest_path))
 
 def import_ds_file(model_command, file_path):
-    os.system("cd %s; amplifyds import %s %s" % (project_path, model_command, file_path))
+    os.system("cd %s; %s import %s %s" % (project_path, ds_command, model_command, file_path))
 
 def export_ds_file(model_command, file_path):
-    os.system("cd %s; amplifyds export %s %s" % (project_path, model_command, file_path))
+    os.system("cd %s; %s export %s %s" % (project_path, ds_command, model_command, file_path))
 
 def upload_file_s3(file_path, dest_path):
     if os.path.exists(file_path):

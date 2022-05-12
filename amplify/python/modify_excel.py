@@ -25,10 +25,11 @@ def append_colums_to_excel(path):
     changed = False
     for info in infos:
         index = index + 1
+        op_id = info.get('opId', None)
         file_name = info.get('filename', None)
         is_upload = info.get('upload', False)
         file_type = info.get('type', None)
-        if is_upload == True:
+        if is_upload:
             continue
         if file_name is not None and len(file_name) != 0:
             changed = True
@@ -36,9 +37,9 @@ def append_colums_to_excel(path):
             if id is None or len(id) == 0:
                 info['id'] = str(uuid.uuid1())
             info['downloadUrl'] = download_path + file_name
-            info['thumbnailUrl'] = preview_path + file_name
+            info['thumbnailUrl'] = preview_path + op_id + '.png'
             info['upload'] = False
-    if changed == True:
+    if changed:
         ft.json_to_excel(infos,path)
     print('append_colums_to_excel finished')
 

@@ -11,9 +11,9 @@ from concurrent.futures import ThreadPoolExecutor
 # local path 资源文件目录
 sticker_data_path = '/Users/peterlee/editor_stickers/'
 # amplify 生成的数据资源表
-sticker_data_subpath = os.getcwd() + '/data/develop/'
-# sticker_data_subpath = os.getcwd() + '/data/product/'
-upload_file = False
+# sticker_data_subpath = os.getcwd().removesuffix('python') + 'data/develop/'
+sticker_data_subpath = os.getcwd().removesuffix('python') + 'data/product/'
+upload_file = True#False
 
 def edit_excel_file(source, dest):
     """修改excel文件"""
@@ -78,15 +78,15 @@ def deal_sticker_category():
 
 def check_data():
     """仅仅处理本地数据上传s3 和 数据表格更新"""
-    # deal_sticker_category()
+    deal_sticker_category()
     deal_sticker()
 
 def upload_data_file():
     """只处理本地的csv表格上传ds-aws"""
     server = sticker_data_subpath + 'server/results_sticker.csv'
     upload_file_tool.upload_file_ds(server, 'Sticker')
-    # server = sticker_data_subpath + 'server/results_sticker_category.csv'
-    # upload_file_tool.upload_file_ds(server, 'StickerCategory')
+    server = sticker_data_subpath + 'server/results_sticker_category.csv'
+    upload_file_tool.upload_file_ds(server, 'StickerCategory')
 
 def pull_data():
     """只处理ds上数据拉取"""
