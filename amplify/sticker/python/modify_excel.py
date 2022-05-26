@@ -37,7 +37,12 @@ def append_colums_to_excel(path):
             if id is None or len(id) == 0:
                 info['id'] = str(uuid.uuid1())
             info['downloadUrl'] = download_path + file_name
-            info['thumbnailUrl'] = preview_path + op_id + '.png'
+            thumbnail_path = info.get('thumbnail_path', None)
+            thumbnail_name = os.path.basename(thumbnail_path)
+            if thumbnail_name is not None and len(thumbnail_name) > 0:
+                info['thumbnailUrl'] = preview_path + thumbnail_name
+            else:
+                info['thumbnailUrl'] = preview_path + op_id + '.png'
             info['upload'] = False
     if changed:
         ft.json_to_excel(infos,path)

@@ -13,7 +13,7 @@ sticker_data_path = '/Users/peterlee/editor_stickers/'
 # amplify 生成的数据资源表
 sticker_data_subpath = os.getcwd().removesuffix('python') + 'data/develop/'
 # sticker_data_subpath = os.getcwd().removesuffix('python') + 'data/product/'
-upload_file = True#False
+upload_file = True
 
 def edit_excel_file(source, dest):
     """修改excel文件"""
