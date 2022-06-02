@@ -36,9 +36,16 @@ def zip_image(file, zip_file):
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    img_path = '/Users/peterlee/eidtor_background/背景图片/download/illustration/illustration_2205_1.jpg'
-    out_path = '/Users/peterlee/eidtor_background/背景图片/thumbnail/illustration/illustration_2205_1.jpg'
-    zip_path = '/Users/peterlee/eidtor_background/背景图片/download/illustration/illustration_2205_1.zip'
-    resize_image(img_path, out_path, 300)
-    zip_image(img_path, zip_path)
+
+    images = ["plants_2205_1.jpg",
+"plants_2205_2.jpg",
+"plants_2205_3.jpg",
+"plants_2205_4.jpg",
+"plants_2205_5.jpg"]
+    img_path = '/Users/peterlee/eidtor_background/背景图片/download/plants/'
+    out_path = '/Users/peterlee/eidtor_background/背景图片/thumbnail/plants/'
+    # zip_path = '/Users/peterlee/eidtor_background/背景图片/download/illustration/illustration_2205_1.zip'
+    for image in images:
+        resize_image(img_path + image, out_path + image, 120)
+    # zip_image(img_path, zip_path)
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
