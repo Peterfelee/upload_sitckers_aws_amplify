@@ -11,7 +11,7 @@ class ModifyExcel:
         self.type_tool = type_tool
         self.preview_path = type_tool.value + '/previews/'
         self.download_path = type_tool.value + '/download/'
-        self.tab_path = type_tool.value + '/tab/previews'
+        self.tab_path = type_tool.value + '/tab/previews/'
 
     # 复制excel文件
     def copy_excel(source_path, dest_path):

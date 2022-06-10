@@ -6,7 +6,7 @@ import excel_tool
 
 
 class ToolType(Enum):
-    sticker = "python"
+    sticker = "sticker"
     background = "background"
 
 
@@ -96,6 +96,7 @@ class ServerTool:
                 continue
             thumbnail = info.get('thumbnail_path', None)
             origin = info.get('origin_path', None)
+            tab_cover = info.get('cover_path', None)
             changed = True
             print(f'begin upload file at {index} line')
             if thumbnail is not None and len(thumbnail) != 0:
@@ -103,6 +104,9 @@ class ServerTool:
                 upload_count += 1
             if origin is not None and len(origin) != 0:
                 pool.submit(self.upload_download_file, data_path + origin)
+                upload_count += 1
+            if tab_cover is not None and len(tab_cover) != 0:
+                pool.submit(self.upload_tab_file, data_path + tab_cover)
                 upload_count += 1
             info['upload'] = True
             print(f'finished upload file at {index} line')

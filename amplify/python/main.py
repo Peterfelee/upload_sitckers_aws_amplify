@@ -24,8 +24,8 @@ class DataTool:
         self.tool_type = tool_type
         self.server_tool = ServerTool(tool_type, project_path, s3_command, ds_command)
         self.modify_excel = ModifyExcel(tool_type)
-        self.upload_file = False
-        self.data_subpath = os.getcwd().removesuffix('python') + 'data/develop/'
+        self.upload_file = True
+        self.data_subpath = os.getcwd().removesuffix('python') + '/data/develop/'
         if tool_type == ToolType.sticker:
             self.data_path = '/Users/peterlee/editor_stickers/'
         else:
@@ -53,6 +53,8 @@ class DataTool:
         local = f'{self.data_subpath}local/editor_{tool_type_name}_local_category.xlsx'
         server = f'{self.data_subpath}server/results_{tool_type_name}_category.csv'
         self.modify_excel.add_colums_to_category_excel(original, local)
+        if self.tool_type == ToolType.sticker and self.upload_file:
+            self.server_tool.upload_file_from_excel(local, self.data_path)
         self.modify_excel.get_server_category_excel(local, server)
 
     def check_data(self):
@@ -89,7 +91,7 @@ if __name__ == '__main__':
     prod = 'amplify pull --appId d36owl11o1ful4 --envName prod'
     agrvs = sys.argv
     command = ''
-    type = ToolType.background
+    type = ToolType.sticker
     data_tool = DataTool(type)
     print(f'current type is {type.name}')
     input_str = input('Are you sure continue...(y/n)?')
@@ -103,7 +105,7 @@ if __name__ == '__main__':
         elif command == 'pull':
             data_tool.pull_data()
         elif command == 'sync':
-            models = ['StickerCategory']
+            models = [f'{type.name.capitalize()}Category']
             for model in models:
                 data_tool.async_dev_pro(model)
         elif command == 'dev':

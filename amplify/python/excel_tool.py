@@ -30,16 +30,16 @@ def updateJsonInfos(origin_infos, local_infos):
     index = 0
     for info in origin_infos:
         index += 1
-        local_info = local_infos[index - 1]
-        """检查一下无效数据，替换为同行数据"""
-        id_str = local_info.get('id', None)
-        if id_str is None or len(id_str) == 0:
-            local_infos[index - 1] = info
-            continue
         if local_count < index:
             # 新增的
             local_infos.append(info)
         else:
+            local_info = local_infos[index - 1]
+            """检查一下无效数据，替换为同行数据"""
+            id_str = local_info.get('id', None)
+            if id_str is None or len(id_str) == 0:
+                local_infos[index - 1] = info
+                continue
             # 老的数据
             # 更新特定字段 online vipState sort
             key_list = ['online', 'vipState', 'sort']
