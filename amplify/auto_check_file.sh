@@ -12,15 +12,6 @@ do
   fi
 done
 
-cd test2 || exit
+cd python || exit
 pwd
-
-if [[ $1 = "check" ]];then
-  python3 check_data.py
-elif [[ $1 = "upload" ]];then
- python3 upload_data.py
-elif [[ $1 = "pull" ]];then
-  python3 pull_data.py
-else
-   python3 test2.py
-fi
+python3 main.py $1

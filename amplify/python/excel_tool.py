@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-def excel_to_json(file, sheet: int=0):
+def excel_to_json(file, sheet = 0):
     if len(file) == 0:
         return None
     infos = pd.read_excel(file, sheet)
@@ -12,7 +12,7 @@ def excel_to_json(file, sheet: int=0):
     return  json.loads(json_str)
 
 
-def json_to_excel(info, file, sheet: str = None):
+def json_to_excel(info, file, sheet = None):
     if len(info) != 0 and info is not None:
         data_frame = pd.DataFrame(info, index=None)
         sheet_name = 'sheet1'
@@ -23,7 +23,12 @@ def json_to_excel(info, file, sheet: str = None):
         logging.info('no content')
 
 
-def updateJsonInfos(origin_infos, local_infos):
+def updateJsonInfos(origin_infos, local_infos, update_keys = ['online', 'vipState', 'sort']):
+    """
+    根据update_keys传来的字段来更新对应的字段
+    """
+    if update_keys == None or update_keys.count == 0 :
+        return
     origin_infos.sort(key=lambda x:(x['primaryId']))
     local_infos.sort(key=lambda x:(x['primaryId']))
     local_count = len(local_infos)
@@ -35,14 +40,14 @@ def updateJsonInfos(origin_infos, local_infos):
             local_infos.append(info)
         else:
             local_info = local_infos[index - 1]
-            """检查一下无效数据，替换为同行数据"""
+            "检查一下无效数据，替换为同行数据"
             id_str = local_info.get('id', None)
             if id_str is None or len(id_str) == 0:
                 local_infos[index - 1] = info
                 continue
             # 老的数据
             # 更新特定字段 online vipState sort
-            key_list = ['online', 'vipState', 'sort']
+            key_list = update_keys
             for key in key_list:
                 local_value = local_info.get(key, None)
                 origin_value = info.get(key, None)
