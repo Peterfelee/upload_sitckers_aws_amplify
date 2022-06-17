@@ -1,10 +1,10 @@
-
+import json
 import logging
 import pandas as pd
-import json
 
 
 def excel_to_json(file, sheet = 0):
+    """excel的表转换为json"""
     if len(file) == 0:
         return None
     infos = pd.read_excel(file, sheet)
@@ -13,6 +13,7 @@ def excel_to_json(file, sheet = 0):
 
 
 def json_to_excel(info, file, sheet = None):
+    """json转换为excel文件"""
     if len(info) != 0 and info is not None:
         data_frame = pd.DataFrame(info, index=None)
         sheet_name = 'sheet1'
@@ -23,12 +24,12 @@ def json_to_excel(info, file, sheet = None):
         logging.info('no content')
 
 
-def updateJsonInfos(origin_infos, local_infos, update_keys = ['online', 'vipState', 'sort']):
+def update_json_infos(origin_infos, local_infos, update_keys = None):
     """
     根据update_keys传来的字段来更新对应的字段
     """
-    if update_keys == None or update_keys.count == 0 :
-        return
+    if update_keys is None or update_keys.count == 0 :
+        update_keys = ['online', 'vipState', 'sort']
     origin_infos.sort(key=lambda x:(x['primaryId']))
     local_infos.sort(key=lambda x:(x['primaryId']))
     local_count = len(local_infos)
@@ -40,7 +41,7 @@ def updateJsonInfos(origin_infos, local_infos, update_keys = ['online', 'vipStat
             local_infos.append(info)
         else:
             local_info = local_infos[index - 1]
-            "检查一下无效数据，替换为同行数据"
+            # 检查一下无效数据，替换为同行数据
             id_str = local_info.get('id', None)
             if id_str is None or len(id_str) == 0:
                 local_infos[index - 1] = info

@@ -8,18 +8,21 @@ import zip_resize_image as zrimg
 class ModifyExcel:
     """excel文件操作的类"""
     def __init__(self, type_tool: ToolType):
+        """初始化数据"""
         self.type_tool = type_tool
         self.preview_path = type_tool.value + '/previews/'
         self.download_path = type_tool.value + '/download/'
         self.tab_path = type_tool.value + '/tab/previews/'
 
-    # 复制excel文件
-    def copy_excel(source_path, dest_path):
+    
+    def copy_excel(self, source_path, dest_path):
+        """复制excel文件"""
         infos = ft.excel_to_json(source_path, 0)
         ft.json_to_excel(infos, dest_path)
 
-    # 直接追加 id， primaryId, downloadUrl, thumbnailUrl， upload等字段
+    
     def append_colums_to_excel(self, path):
+        """直接追加 id, primaryId, downloadUrl, thumbnailUrl, upload等字段"""
         print(f"start to append colums to excel to {path}")
         infos = ft.excel_to_json(path, 0)
         index = 0
@@ -97,7 +100,7 @@ class ModifyExcel:
         else:
             source_infos = ft.excel_to_json(source_path, 0)
             dest_infos = ft.excel_to_json(dest_path, 0)
-            dest_infos = ft.updateJsonInfos(source_infos, dest_infos)
+            dest_infos = ft.update_json_infos(source_infos, dest_infos)
             ft.json_to_excel(dest_infos, dest_path)
         self.append_colums_to_excel(dest_path)
 
@@ -108,7 +111,7 @@ class ModifyExcel:
         if os.path.exists(dest_path):
             new_infos = ft.excel_to_json(dest_path, 0)
 
-        new_infos = ft.updateJsonInfos(infos, new_infos)
+        new_infos = ft.update_json_infos(infos, new_infos)
         count = len(new_infos)
         index = 0
         for info in infos:
@@ -182,5 +185,5 @@ class ModifyExcel:
             thumbnail = info.get('thumbnail_path', None)
             origin = info.get('origin_path', None)
             if thumbnail is not None and len(thumbnail) > 0:
-                """处理压缩"""
+                "处理压缩尺寸"
                 zrimg.resize_image(data_path + origin, data_path + thumbnail, 120)

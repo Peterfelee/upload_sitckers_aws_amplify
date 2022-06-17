@@ -8,6 +8,7 @@ import zipfile
 
 
 def resize_image(file, out_file, max_width):
+    """修改图片尺寸"""
     or_img = Image.open(file, 'r')
     or_width = or_img.width
     or_height = or_img.height
@@ -20,15 +21,16 @@ def resize_image(file, out_file, max_width):
         resize_height = max_width
         resize_width = or_width / or_height * resize_height
     resiz_img = or_img.resize((int(resize_width), int(resize_height)))
-    out_path = os.path.dirname(out_file)
+    out_file_dir = os.path.dirname(out_file)
     if os.path.exists(out_file):
         return
-    if os.path.exists(out_path) == False:
-        os.makedirs(out_path)
+    if os.path.exists(out_file_dir) == False:
+        os.makedirs(out_file_dir)
     resiz_img.save(out_file)
 
 
 def zip_image(file, zip_file):
+    """压缩文件为zip"""
     if os.path.exists(os.path.abspath(zip_file)) == False:
         zipfile.ZipFile(zip_file, 'w').write(file)
 

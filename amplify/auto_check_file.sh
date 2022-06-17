@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pip3_list=$(pip3 list)
-need_list=(openpyxl pandas xlrd xlwt)
+need_list=(openpyxl pandas xlrd xlwt PIL)
 
 for need_package in "${need_list[@]}"
 do
