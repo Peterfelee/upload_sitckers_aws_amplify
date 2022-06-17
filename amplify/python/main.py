@@ -105,7 +105,7 @@ if __name__ == '__main__':
         elif command == 'pull':
             data_tool.pull_data()
         elif command == 'sync':
-            models = [f'{type.name.capitalize()}Category']
+            models = [f'{type.name.capitalize()}', f'{type.name.capitalize()}Category']
             for model in models:
                 data_tool.async_dev_pro(model)
         elif command == 'dev':
