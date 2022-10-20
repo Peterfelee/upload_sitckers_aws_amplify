@@ -9,7 +9,7 @@ def excel_to_json(file, sheet = 0):
         return None
     infos = pd.read_excel(file, sheet)
     json_str = infos.to_json(orient='records')
-    return  json.loads(json_str)
+    return json.loads(json_str)
 
 
 def json_to_excel(info, file, sheet = None):
@@ -54,4 +54,5 @@ def update_json_infos(origin_infos, local_infos, update_keys = None):
                 origin_value = info.get(key, None)
                 if local_value is not None and str(local_value) != str(origin_value):
                     local_info[key] = origin_value
+                    print(f'modify:{id_str}{key}')
     return local_infos

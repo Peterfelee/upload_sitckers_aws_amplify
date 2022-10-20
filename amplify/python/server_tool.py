@@ -8,6 +8,7 @@ import excel_tool
 class ToolType(Enum):
     sticker = "sticker"
     background = "background"
+    emoji = "emoji"
 
 
 class ServerTool:
@@ -37,6 +38,10 @@ class ServerTool:
 
     def async_env_pro(self, model, src_env, dest_env):
         os.system("cd %s; %s sync %s %s %s" % (self.project_path, self.ds_command, model, src_env, dest_env))
+
+
+    def async_s3_env_pro(self, model, src_env, dest_env):
+        os.system("cd %s; %s sync %s %s %s" % (self.project_path, self.s3_command, src_env, dest_env, model))
 
     def upload_file_s3(self, file_path, dest_path):
         if os.path.exists(file_path):
@@ -119,3 +124,7 @@ class ServerTool:
 
     def product_to_develop(self, model):
         self.async_env_pro(model, 'prod', 'dev')
+
+
+    def dev_prod_s3(self, model):
+        self.async_s3_env_pro(model, 'dev', 'prod')

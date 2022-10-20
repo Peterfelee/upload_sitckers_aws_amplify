@@ -14,4 +14,18 @@ done
 
 cd python || exit
 pwd
-python3 main.py $1
+msgs=`python3 main.py $1`
+one=','
+second='['
+third=']'
+firstMsg=${msgs#*[}
+echo $firstMsg
+secondMsg=${firstMsg%$third*}
+echo $secondMsg
+arr=(${secondMsg//$one/})
+for msg in ${arr[*]}
+do
+  echo $msg
+done
+echo "i test print: $msgs"
+echo  "count: ${#arr[*]}"

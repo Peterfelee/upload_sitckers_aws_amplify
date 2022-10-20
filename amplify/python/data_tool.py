@@ -85,6 +85,9 @@ class DataTool:
     def async_dev_pro(self, model):
         self.server_tool.develop_to_product(model)
 
+    def sync_s3_dev_pro(self, model):
+        self.server_tool.dev_prod_s3(model)
+
     def pull_to_dev(self):
         os.system("cd %s;pwd;%s" %(project_path,amplify_dev))
     
