@@ -186,4 +186,7 @@ class ModifyExcel:
             origin = info.get('origin_path', None)
             if thumbnail is not None and len(thumbnail) > 0:
                 "处理压缩尺寸"
+                if os.path.isfile(data_path + thumbnail):
+                    print('thumbnail is exists , next.')
+                    continue
                 zrimg.resize_image(data_path + origin, data_path + thumbnail, 120)

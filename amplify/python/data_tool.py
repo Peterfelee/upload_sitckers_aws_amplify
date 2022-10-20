@@ -25,8 +25,8 @@ class DataTool:
         self.tool_type = tool_type
         self.server_tool = ServerTool(tool_type, project_path, s3_command, ds_command)
         self.modify_excel = ModifyExcel(tool_type)
-        self.upload_file = True
-        self.data_subpath = os.getcwd().removesuffix('python') + 'data/develop/'
+        self.upload_file = False
+        self.data_subpath = os.getcwd().removesuffix('python') + '/data/develop/'
         if tool_type == ToolType.sticker:
             self.data_path = sticker_data_path
         else:
@@ -41,8 +41,8 @@ class DataTool:
         server = f'{self.data_subpath}server/results_{tool_type_name}.csv'
 
         self.modify_excel.modify_excel(original, local)
-        # if tool_type_name == ToolType.background.name:
-            # self.modify_excel.zip_resize_image(local, self.data_path)
+        if tool_type_name == ToolType.background.name:
+            self.modify_excel.zip_resize_image(local, self.data_path)
         if self.upload_file:
             self.server_tool.upload_file_from_excel(local, self.data_path)
         self.modify_excel.get_server_excel(local, server)

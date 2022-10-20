@@ -42,9 +42,10 @@ def convert2Webp(path):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    path = '/Users/peterlee/editor_source/editor_stickers/sticker_thumbnail/sticker_202206/neon_202206'
+    # path = '/Users/peterlee/editor_source/editor_stickers/sticker_thumbnail/sticker_202206/neon_202206'
     # convert2Webp(path)
-
+    # DataTool(tool_type= ToolType.background).check_data()
+    # exit()
     agrvs = sys.argv
     command = ''
     if len(agrvs) > 1:
